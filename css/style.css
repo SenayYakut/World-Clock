@@ -1,16 +1,19 @@
 body {
-  background-color: #f9f7fd;
+  background-color: #f9f7fe;
   font-family: sans-serif;
 }
+
 h1 {
   text-align: center;
-  font-size: 36px;
   font-family: sans-serif;
+  font-size: 36px;
 }
+
 h2 {
-  font-size: 28px;
   margin: 0 0 5px;
+  font-size: 28px;
 }
+
 select {
   display: block;
   width: 100%;
@@ -24,8 +27,8 @@ select {
   margin: 60px auto;
   background: white;
   padding: 30px;
-  border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
 }
 
 .city {
@@ -39,6 +42,7 @@ select {
 .city:last-child {
   border: none;
 }
+
 .date {
   opacity: 0.7;
 }
