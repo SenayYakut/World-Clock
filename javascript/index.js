@@ -22,3 +22,10 @@ function dateUpdate() {
 
 dateUpdate();
 setInterval(dateUpdate, 1000);
+
+function updateCity(event) {
+  let city = event.target.value;
+}
+
+let selectElement = document.querySelector("#city");
+selectElement.addEventListener("change", updateCity);
